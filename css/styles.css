@@ -83,6 +83,10 @@ h1,
     border: none;
 }
 
+.add-to-cart-icon{
+    margin-right: 0.5em;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
