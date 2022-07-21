@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Product Preview Component Solution](https://github.com/kaykaym01/product-preview-component)
 - Live Site URL: [Product Preview Component Live Site](https://kaykaym01.github.io/product-preview-component/)
+- Solution URL: [Product Preview Component Code](https://github.com/kaykaym01/product-preview-component)
 
 ## My process
 * Start with mobile design first 
