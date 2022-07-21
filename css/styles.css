@@ -1,15 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: hsl(30, 38%, 92%);
 }
 
 .product-card{
    display: flex;
    flex-direction: column;
-   width: 100%;
    border-radius: 10px;
+   background-color: hsl(0, 0%, 100%);
+   margin: 1.5em 1em;
+   overflow: hidden;
+}
+
+.product-image {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
 }
 
 .prices {
