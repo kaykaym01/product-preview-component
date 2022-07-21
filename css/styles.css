@@ -14,9 +14,6 @@ body {
     height: 100vh;
 }
 
-footer {
-}
-
 h1,
 .disc-price {
     font-family: 'Fraunces', serif;
@@ -92,7 +89,7 @@ h1,
     cursor: pointer;
 }
 
-.add-to-cart-icon{
+.add-to-cart-icon {
     margin-right: 0.5em;
 }
 
@@ -111,13 +108,13 @@ h1,
         max-width: 650px;
     }
 
-    .product-image{
+    .product-image {
         min-width: 0;
         flex: 1 1 0;
     }
 
-    .product-info{
-        padding: 2.5em;   
+    .product-info {
+        padding: 2.5em;
         gap: 2em;
         flex: 1 1 0;
     }
