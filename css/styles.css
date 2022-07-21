@@ -11,6 +11,10 @@ body {
     align-items: center;
     background-color: hsl(30, 38%, 92%);
     font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+footer {
 }
 
 h1,
@@ -99,4 +103,22 @@ h1,
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 768px) {
+    .product-card {
+        flex-direction: row;
+        max-width: 650px;
+    }
+
+    .product-image{
+        min-width: 0;
+        flex: 1 1 0;
+    }
+
+    .product-info{
+        padding: 2.5em;   
+        gap: 2em;
+        flex: 1 1 0;
+    }
 }
